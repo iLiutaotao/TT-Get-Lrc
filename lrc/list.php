@@ -3,7 +3,7 @@
     header("Content-type:text/html;charset=utf-8");
     date_default_timezone_set('Asia/Shanghai');
     $pass='037d54d3950a9c311c67a8897cb33065';
-    $link = @mysql_connect("localhost",'liu_lab_user','AZVDPdKBqVWctER',true);
+    $link = @mysql_connect("数据库地址",'数据库用户名','数据库密码',true);
     if(!$link) {
         die("Connect Server Failed: " . mysql_error());
     }
